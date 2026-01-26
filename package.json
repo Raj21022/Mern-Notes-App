@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
-  "start":"npm run start --prefix backend"
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/Raj21022/Mern-Notes-App/issues"
   },
-  "homepage": "https://github.com/Raj21022/Mern-Notes-App#readme"
+  "homepage": "https://github.com/Raj21022/Mern-Notes-App#readme",
+  "dependencies": {
+    "jwt-decode": "^4.0.0"
+  }
 }
