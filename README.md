@@ -46,29 +46,13 @@ https://mern-notes-app-pdjg.onrender.com/login
 
 ## Screenshots
 
-> Note: place the screenshot image files in the repository under `/screenshots/` (suggested filenames below). If you want, I can add and commit them for you.
+1) Login page
 
-1) Login page  
-![Login page](./screenshots/1-login.png)
+2) Empty notes
 
-2) Empty notes / dashboard (no notes yet)  
-![No notes yet](./screenshots/2-empty-notes.png)
+3) Create note form 
 
-3) Create note form  
-![Create new note](./screenshots/3-create-note.png)
-
-4) Notes list (example note)  
-![Notes list](./screenshots/4-notes-list.png)
-
-Suggested filenames to upload to the repo:
-- screenshots/1-login.png
-- screenshots/2-empty-notes.png
-- screenshots/3-create-note.png
-- screenshots/4-notes-list.png
-
-If you prefer, you can use different names — just update the image paths above accordingly.
-
----
+4) Notes list (example note)
 
 ## Installation
 
