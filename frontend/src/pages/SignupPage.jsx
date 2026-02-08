@@ -50,15 +50,15 @@ export const SignupPage = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-secondary/20 via-base-100 to-accent/20 p-4">
-      <div className="card w-full max-w-md bg-base-100 shadow-2xl">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 p-4">
+      <div className="card w-full max-w-md bg-base-100 shadow-xl">
         <div className="card-body">
           {/* Header */}
           <div className="text-center mb-6">
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-secondary/10 mb-4">
-              <UserPlus className="w-8 h-8 text-secondary" />
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-indigo-100 mb-4">
+              <UserPlus className="w-8 h-8 text-indigo-600" />
             </div>
-            <h2 className="text-3xl font-bold">Create Account</h2>
+            <h2 className="text-3xl font-bold text-gray-800">Create Account</h2>
             <p className="text-base-content/60 mt-2">Join us and start organizing your notes</p>
           </div>
 
@@ -75,7 +75,7 @@ export const SignupPage = () => {
                   type="text"
                   name="username"
                   placeholder="johndoe"
-                  className="input input-bordered w-full pl-10"
+                  className="input input-bordered w-full pl-10 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-200"
                   value={formData.username}
                   onChange={handleChange}
                   required
@@ -96,7 +96,7 @@ export const SignupPage = () => {
                   type="email"
                   name="email"
                   placeholder="your@email.com"
-                  className="input input-bordered w-full pl-10"
+                  className="input input-bordered w-full pl-10 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-200"
                   value={formData.email}
                   onChange={handleChange}
                   required
@@ -115,7 +115,7 @@ export const SignupPage = () => {
                   type="password"
                   name="password"
                   placeholder="••••••••"
-                  className="input input-bordered w-full pl-10"
+                  className="input input-bordered w-full pl-10 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-200"
                   value={formData.password}
                   onChange={handleChange}
                   required
@@ -135,7 +135,7 @@ export const SignupPage = () => {
                   type="password"
                   name="confirmPassword"
                   placeholder="••••••••"
-                  className="input input-bordered w-full pl-10"
+                  className="input input-bordered w-full pl-10 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-200"
                   value={formData.confirmPassword}
                   onChange={handleChange}
                   required
@@ -146,7 +146,7 @@ export const SignupPage = () => {
             {/* Submit Button */}
             <button
               type="submit"
-              className="btn btn-secondary w-full"
+              className="btn w-full bg-indigo-600 hover:bg-indigo-700 text-white border-none"
               disabled={loading}
             >
               {loading ? (
@@ -167,7 +167,7 @@ export const SignupPage = () => {
           <div className="divider">OR</div>
           <p className="text-center text-base-content/60">
             Already have an account?{' '}
-            <Link to="/login" className="link link-primary font-medium">
+            <Link to="/login" className="link text-indigo-600 hover:text-indigo-700 font-medium">
               Sign in
             </Link>
           </p>
